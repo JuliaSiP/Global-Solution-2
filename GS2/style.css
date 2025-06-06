@@ -1,0 +1,168 @@
+/* Importar uma fonte do Google Fonts para um visual mais agradável */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Estilos gerais do corpo da página */
+body {
+    font-family: 'Poppins', Arial, sans-serif; /* Usando a fonte Poppins */
+    line-height: 1.7; /* Aumenta o espaçamento entre linhas para melhor leitura */
+    margin: 0; /* Remove margem padrão do body */
+    padding: 20px; /* Adiciona um padding geral para respiro */
+    color: #333; /* Cor de texto principal */
+    background-color: #e8f5e9; /* Um verde claro suave para o fundo */
+}
+
+/* Estilo do container principal que envolve todo o conteúdo */
+.container {
+    max-width: 850px; /* Largura máxima para o conteúdo */
+    margin: 40px auto; /* Centraliza o container com margem superior/inferior */
+    background: #ffffff; /* Fundo branco para o container */
+    padding: 40px; /* Padding interno generoso */
+    border-radius: 12px; /* Bordas mais arredondadas */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1); /* Sombra mais pronunciada e suave */
+    border: 1px solid #dcdcdc; /* Borda sutil */
+}
+
+/* Estilo do título principal H1 */
+h1 {
+    color: #2e7d32; /* Um tom de verde mais escuro e vibrante */
+    text-align: center;
+    font-size: 2.8em; /* Tamanho maior para o título */
+    margin-bottom: 30px;
+    font-weight: 700; /* Mais negrito */
+    letter-spacing: -0.5px; /* Ajuste sutil no espaçamento entre letras */
+}
+
+/* Estilo dos subtítulos H2 (categorias) */
+h2 {
+    color: #1976d2; /* Um tom de azul para diferenciar das categorias */
+    border-bottom: 3px solid #c8e6c9; /* Borda mais grossa com um verde claro */
+    padding-bottom: 12px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+/* Estilo dos subtítulos H3 (sub-categorias) */
+h3 {
+    color: #4CAF50; /* Um verde intermediário */
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+/* Estilo para listas não ordenadas */
+ul {
+    list-style: none; /* Remove os marcadores de lista padrão */
+    padding: 0;
+    margin-bottom: 30px; /* Espaçamento após cada lista */
+}
+
+/* Estilo para cada item da lista */
+ul li {
+    background: #f1f8e9; /* Fundo verde muito claro para os itens */
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 8px; /* Bordas arredondadas nos itens */
+    display: flex; /* Para alinhar o input e o texto */
+    align-items: center; /* Centraliza verticalmente o input e o texto */
+    border: 1px solid #dcedc8; /* Borda suave para os itens */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Efeito de transição */
+    cursor: pointer; /* Indica que o item é clicável */
+}
+
+/* Efeito ao passar o mouse sobre os itens da lista */
+ul li:hover {
+    transform: translateY(-3px); /* Move o item levemente para cima */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* Sombra sutil ao passar o mouse */
+}
+
+/* Estilo para o input de checkbox */
+input[type="checkbox"] {
+    margin-right: 15px; /* Espaçamento entre o checkbox e o texto */
+    width: 20px; /* Largura do checkbox */
+    height: 20px; /* Altura do checkbox */
+    accent-color: #2e7d32; /* Cor do checkbox quando marcado (verde) */
+    cursor: pointer; /* Indica que o checkbox é clicável */
+}
+
+/* Estilo para parágrafos */
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Estilo para texto em negrito */
+strong {
+    color: #2e7d32; /* Mesma cor do H1 para destaque */
+    font-weight: 600;
+}
+
+/* Estilo para o bloco de chamada para ação (CTA) */
+.cta {
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px;
+    background-color: #c8e6c9; /* Um verde claro mais intenso */
+    border-radius: 10px;
+    border: 1px solid #a5d6a7; /* Borda para o CTA */
+    color: #1b5e20; /* Cor de texto mais escura para contraste */
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+/* Estilo para a linha horizontal */
+hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0; /* Uma cor cinza claro */
+    margin: 40px 0; /* Espaçamento maior para a linha */
+}
+
+/* Mídia Query para telas menores (responsividade) */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    .container {
+        margin: 20px auto;
+        padding: 25px;
+    }
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+    h3 {
+        font-size: 1.4em;
+    }
+    ul li {
+        padding: 12px 15px;
+        font-size: 0.95em;
+    }
+    input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+    }
+    .cta {
+        font-size: 1em;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+}
