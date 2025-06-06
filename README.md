@@ -8,11 +8,12 @@ A proposta do "Checklist Diário Ambiental" é incentivar a conscientização e 
 
 A plataforma se relaciona diretamente com o tema da sustentabilidade ao listar ações concretas em diversas áreas (consumo de energia, água, gestão de resíduos, mobilidade, etc.). A justificativa reside na necessidade de ferramentas acessíveis que desmistifiquem a sustentabilidade, mostrando que pequenas atitudes individuais, quando somadas, têm um impacto significativo. O formato de checklist preenchível torna a experiência engajadora e tangível.
 
-🔗 Link para Repositório Público no GitHub
+🔗 Link para Repositório Público no GitHub e Deploy Vercel
 Você pode acessar todos os arquivos do projeto neste repositório público do GitHub:
 
-https://github.com/seu-usuario/checklist-ambiental-interativo
-(Nota: Este é um link de exemplo. Substitua por seu repositório real após o upload dos arquivos.)
+(https://github.com/JuliaSiP/Global-Solution-2)
+vercel.com/juliasips-projects/global-solution-2
+
 
 💻 Tecnologias Utilizadas
 Este projeto foi construído utilizando as seguintes tecnologias web fundamentais:
